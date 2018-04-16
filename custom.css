@@ -1,57 +1,36 @@
-body{
-	padding-top: 70px;
-	padding-bottom: 20px;
-	margin-bottom: 50px;
+body {
+	padding-top: 20px;
 }
 
-#about-me {
-	background-image: url('img/office-desk.jpg');
-	background-size: 100% auto;
-	opacity: 0.9;
-}
-
-#thumbnails {
-	background-color: skyblue;
-}
-
-#contact-me {
-}
-
-#about-me-text {
-	color: white;
-	text-shadow: 1px 1px black;
-	font-weight: bold;
-}
-
-#contact-pic {
-	width: 100%;
-}
-
-#footer {
+#logo {
 
 }
 
-.img-thumbnail {
-	margin-bottom: 10px;
+#profile {
+	border-radius: 50px;
 }
 
-h1, h3 {
-	color: white;
+.intro {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #ED3B3B;
+	border-radius: 15px;
+}
+
+.skill_area {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: #ED3B3B;
+}
+
+.fa-github, .fa-medium, .fa-facebook, .fa-twitter-square, .fa-linkedin {
+	color: #ED3B3B;
+}
+
+.fa-code {
 	text-align: center;
-	text-shadow: 1px 1px black;
-	font-weight: bold;
-}
-
-p {
-	color: gray;
-	text-shadow: 1px 1px black;
-	font-weight: bold;
-}
-
-ul {
-	font-size: 20px;
-	color: white;
-	text-shadow: 1px 1px black;
-	font-weight: bold;
-	text-align: left;
+	font-size: 7em;
+	color: #ED3B3B;
 }
