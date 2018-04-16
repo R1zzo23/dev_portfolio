@@ -1,0 +1,57 @@
+body{
+	padding-top: 70px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+#about-me {
+	background-image: url('img/office-desk.jpg');
+	background-size: 100% auto;
+	opacity: 0.9;
+}
+
+#thumbnails {
+	background-color: skyblue;
+}
+
+#contact-me {
+}
+
+#about-me-text {
+	color: white;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+}
+
+#contact-pic {
+	width: 100%;
+}
+
+#footer {
+
+}
+
+.img-thumbnail {
+	margin-bottom: 10px;
+}
+
+h1, h3 {
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+}
+
+p {
+	color: gray;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+}
+
+ul {
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+	text-align: left;
+}
