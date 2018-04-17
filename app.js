@@ -4,21 +4,40 @@ $(document).ready(function () {
 });
 
 function webSkillClick() {
-  $('#softwareDevProjects').attr('hidden', 'true');
-  $('#softwareDevProjects').hide();
-  if ($('#webDevProjects').attr('hidden') == 'hidden'){
-    $('#webDevProjects').show();
-    $('#webDevProjects').attr('hidden', 'no');
+  var software = $('#softwareDevProjects');
+  var webDev = $('#webDevProjects');
+  if(software.attr('show') == 'yes'){
+    software.fadeOut('fast', function(){
+      fadeProjects(webDev);
+    });
+    software.attr('show', 'no');
   }
   else {
-    $('#webDevProjects').hide();
-    $('#webDevProjects').attr('hidden', 'true');
+    fadeProjects(webDev);
   }
-
-
 }
 
-$('#softwareSkill').click(function() {
-  $('#webDevProjects').hide();
-  $('#softwareDevProjects').show();
-});
+function softwareSkillClick() {
+  var software = $('#softwareDevProjects');
+  var webDev = $('#webDevProjects');
+  if(webDev.attr('show') == 'yes'){
+    webDev.fadeOut('fast', function(){
+      fadeProjects(software);
+    });
+    webDev.attr('show', 'no');
+  }
+  else {
+    fadeProjects(software);
+  }
+}
+
+function fadeProjects(div){
+  if(div.attr('show') == 'no'){
+    div.fadeIn('fast');
+    div.attr('show', 'yes');
+  }
+  else if (div.attr('show') == 'yes'){
+    div.fadeOut('fast');
+    div.attr('show', 'no');
+  }
+}
