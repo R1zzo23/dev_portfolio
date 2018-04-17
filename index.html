@@ -2,17 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website Title -->
 	<title>AJR Designs</title>
-
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Javascript file -->
+  <script type="text/javascript" src="app.js"></script>
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- CSS file -->
 	<link rel=StyleSheet href="custom.css" type="text/css">
+	<!-- Google Fonts file -->
+	<link href="https://fonts.googleapis.com/css?family=Crete+Round|Nunito" rel="stylesheet">
+	<!-- Font Awesome file -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 
 <body>
@@ -27,18 +36,48 @@
 		<hr>
 
 		<div class="row">
-			<div class="col-md-3 text-center">
+			<div class="col-md-3 text-right">
 				<img id="profile" src='img/profile.jpg' />
 			</div>
-			<div class="col-md-4 text-center skill_area">
+			<div id="webSkill" onclick="webSkillClick()" class="col-md-4 text-center skill_area">
 				<i class="fas fa-code" aria-hidden="true"></i>
 				<h3>Web Development</h3>
-				<h5>Utilizing HTML, CSS, JavaScript and jQuery, I enjoy making beautiful and fluid websites and web apps to access on all devices.</h5>
+				<h5>Utilizing HTML, CSS, JavaScript and jQuery, I enjoy making beautiful, fluid and responsive websites and web apps for all devices.</h5>
 			</div>
-			<div class="col-md-4 text-center skill_area">
+			<div id="softwareSkill" class="col-md-4 text-center skill_area">
 				<i class="fas fa-desktop"></i>
 				<h3>Software Development</h3>
 				<h5>With years of self-training in C#, software development in the language is something I'm very comfortable with along with the MVC pattern.</h5>
+			</div>
+			<div class="row">
+				<div id="webDevProjects" hidden="true" class="col-md-12 text-center projects">
+					<h1>Web Development Projects</h1>
+					<div class='row'>
+						<div class="col-md-4">
+							<h3>Project #1</h3>
+						</div>
+						<div class="col-md-4">
+							<h3>Project #2</h3>
+						</div>
+						<div class="col-md-4">
+							<h3>Project #3</h3>
+						</div>
+					</div>
+				</div>
+				<div id="softwareDevProjects" hidden="true" class="col-md-12 text-center projects">
+					<h1>Software Development Projects</h1>
+					<div class='row'>
+						<div class="col-md-4">
+							<h3>Project #1</h3>
+						</div>
+						<div class="col-md-4">
+							<h3>Project #2</h3>
+						</div>
+						<div class="col-md-4">
+							<h3>Project #3</h3>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -62,12 +101,8 @@
 		</div>
 	</div>
 
-<!-- End of Footer -->
+	<!-- End of Footer -->
 
-	<!-- JavaScript files should be linked at the bottom of the page -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </body>
 </html>
