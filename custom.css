@@ -25,6 +25,10 @@ hr {
 	border-radius: 15px;
 }
 
+#webDevProjects img {
+	height: 250px;
+}
+
 .skill_area {
 	background-color: white;
 	padding-top: 2px;
