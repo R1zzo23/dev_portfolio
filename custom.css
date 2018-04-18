@@ -74,6 +74,19 @@ h5 {
 	font-family: 'Crete Round';
 }
 
+.quoteText {
+	font-family: 'Nunito';
+	font-weight: bold;
+}
+
+.quoteAuthor {
+	font-style: italic;
+	font-family: 'Satisfy';
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #ED3B3B;
+}
+
 .fa-github, .fa-medium, .fa-facebook, .fa-twitter-square, .fa-linkedin {
 	color: #ED3B3B;
 }
