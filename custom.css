@@ -7,15 +7,40 @@ hr {
 	border-color: #ED3B3B;
 }
 
+#divider {
+	padding-bottom: 100px;
+}
+
 #logo {
 
 }
 
-#profile {
+#profile, img {
 	border-radius: 50px;
 	border-color: #ED3B3B;
 	border-style: solid;
 	border-width: 3px;
+}
+
+a {
+	color: #ED3B3B;
+	text-decoration: underline;
+}
+
+.name {
+	color: #ED3B3B;
+	font-weight: bold;
+	font-family: 'Nunito';
+}
+
+#aboutMe p {
+	font-size: 1.1em;
+	font-family: 'Crete Round';
+}
+
+.projects p {
+	font-size: 1em;
+	font-family: 'Crete Round';
 }
 
 .intro {
@@ -40,7 +65,7 @@ hr {
 	border-color: #ED3B3B;
 }
 
-h3 {
+h2, h3 {
 	font-family: 'Nunito';
 	font-weight: bolder;
 }

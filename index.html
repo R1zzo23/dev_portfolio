@@ -35,8 +35,13 @@
 
 		<hr>
 
-		<div class="row">
-			<div class="col-md-3 text-right">
+		<div class="row"> <!-- 3 clicky sections -->
+			<div class='col-md-12 text-center'>
+				<h2>Click any of the three sections below for more information.</h2>
+			</div>
+		</div>
+		<div class='row'>
+			<div class="col-md-3 text-right" onclick="aboutMeClick()">
 				<img id="profile" src='img/profile.jpg' />
 			</div>
 			<div id="webSkill" onclick="webSkillClick()" class="col-md-4 text-center skill_area">
@@ -48,58 +53,147 @@
 				<i class="fas fa-desktop"></i>
 				<h3>Software Development</h3>
 				<h5>With years of self-training in C#, software development in the language is something I'm very comfortable with along with the MVC pattern.</h5>
-			</div>
-			<div class="row">
+			</div> <!-- 3 clicky sections -->
+
+			<div class="row"> <!-- Display Information Sections -->
+				<div id="aboutMe" show="no" class="col-md-12 text-center">
+					<h2>About Me</h2>
+					<p>My name is <span class='name'>Adam Rizzo</span> and I am a self-taught freelance programmer.
+						I have been actively learning programming - namely <span class='name'>JavaScript</span> and
+						<span class='name'>C#</span> over the past five years. Most of my free time is spent trying to
+						extend my knowledge in the fields of web and software development.
+						<br>
+						<br>
+						My current career is as an 8th grade math teacher. This is my 10th year in the profession and I
+						currently hold a Master's degree in math education. Beore teaching math, I was an instructional
+						technology teacher at the same middle school. To me, teaching and learning go hand-in-hand and
+						you can't be great at one of them if you stop doing the other. When it comes to programming, I
+						took it upon myself to try to teach others in need when I could. These two articles -
+						<a href='https://medium.com/programmer-helping-programmers/php-blog-wherefore-art-thou-challenge-f5dc3b6764be'>HERE</a>
+						and <a href='https://medium.com/programmer-helping-programmers/php-manipulating-complex-objects-challenge-fddb974a0c21'>HERE</a>
+						were my attempts to give back to those who needed help.
+						<br>
+ 						<br>
+						<span class='name'>While I love numbers
+						and technology, my true passion is problem solving.</span> Whether that's with a
+						difficult math problem, debugging code or learning a new programming language, I <span class='name'>thrive</span>
+						on being challenged mentally.
+						<br>
+						<br>
+						Whether you are looking for website/web app or developing a new piece of software for your
+						business to utilize on a day-to-day basis, <span class='name'>I want to help you reach your
+						potential however I can!</span> If you decide that I'm someone you'd love to work with, you're getting
+						an individual that excels with communication, customization and a tireless work ethic.
+					</p>
+				</div>
 				<div id="webDevProjects" show="no" class="col-md-12 text-center projects">
-					<h1>Web Development Projects</h1>
+					<h2>Web Development Projects</h2>
 					<div class='row'>
 						<div class="col-md-3">
 							<a href="https://r1zzo23.github.io/JavaScript_calculator/"><h3>JavaScript Calculator</h3></a>
+							<p>One of the fist JavaScript projects a developer creates, I had to learn how to string mathematical operations together while also attending to precision.</p>
 						</div>
 						<div class="col-md-3">
 							<a href='https://r1zzo23.github.io/Pomodoro_Clock/'><h3>Pomodoro Clock</h3></a>
+							<p>I realized that when I worked on a computer, I would get sidetracked easily. After learning what a Pomodoro Clock was I knew that this was a project that would not only be great practice but beneficial to my productivity!</p>
 						</div>
 						<div class="col-md-3">
 							<a href='https://r1zzo23.github.io/Simon/'><h3>Simon Game</h3></a>
+							<p>Not only was this my first try at utilizing sounds in any capacity in my programming but this was my first truly collaborative effort with another up-and-coming developer.</p>
 						</div>
 						<div class="col-md-3">
 							<a href='https://r1zzo23.github.io/Tic-Tac-Toe/'><h3>Tic-Tac-Toe</h3></a>
+							<p>What I believed to be a simple game proved to have many more moving parts than expected. Developing the CPU AI was a lot of fun trying to give "brain power" to the CPU.</p>
 						</div>
 					</div>
 					<div class='row'>
 						<div class='col-md-3'>
 							<a href='https://r1zzo23.github.io/random_quote_machine/'><h3>Random Quote Machine</h3></a>
+							<p>A minor project I created in my infancy as a web developer, this app gives a random sports quote with the ability to tweet it out to your Twitter timeline.</p>
 						</div>
 						<div class="col-md-3">
 							<a href='https://codepen.io/arizzo/full/YQgrYN/'><h3>Twitch Account App</h3></a>
+							<p>With video gaming taking off in popularity, Twitch is blowing up. This app allows you to check in on a list of Twitch accounts to see if they are currently streaming and what exactly they are playing.</p>
 						</div>
 						<div class="col-md-3">
 							<a href='https://codepen.io/arizzo/full/RgxLLQ/'><h3>Wikipedia Search</h3></a>
+							<p>My first program utilizing an API, this Wikipedia Search was quite the endeavor. After countless hours, I was able to finally grasp how to get information from an API and use it how I saw fit.</p>
 						</div>
 						<div class="col-md-3">
 							<a href='https://codepen.io/arizzo/full/BZwXow/'><h3>Weather App</h3></a>
+							<p>My second API app went much smoother than my first. Being able to access the API - with confidence! - allowed me to create this weather app to go along with some minor CSS animations.</p>
 						</div>
 					</div>
 				</div>
 				<div id="softwareDevProjects" show="no" class="col-md-12 text-center projects">
-					<h1>Software Development Projects</h1>
+					<h2>Software Development Projects</h2>
 					<div class='row'>
 						<div class="col-md-4">
 							<a href='https://github.com/R1zzo23/MegaChallengeCasino'><h3>Casino Slot Machine</h3></a>
+							<p>A simple C# casino slot with some background business logic running the win-loss calculations. Run out of money? No problem! Just hit the ATM and keep playing!</p>
 						</div>
 						<div class="col-md-4">
 							<a href='https://github.com/R1zzo23/MegaWarChallenge'><h3>War Card Game</h3></a>
+							<p>The game of war seems so simple...until you recognize you need to create every card, deal them out to players and then code the rules of the game. This program taught me the proper way to create methods and to keep them short and concise.</p>
 						</div>
 						<div class="col-md-4">
 							<a href='https://github.com/mikeduffy7/CodeDay1'><h3>Turn-Based Combat Game</h3></a>
+							<p>This is a work-in-progress and my fun project I tinker with on the side to teach myself the MVC framework. It's centered around the popular MOBA game League of Legends and deals with turn-based combat.</p>
 						</div>
 					</div>
 				</div>
+			</div> <!-- Display Information Sections -->
+		</div>
+
+		<hr>
+
+		<div class="row">
+			<div class='col-md-12 text-center'>
+				<h2>Testimonials</h2>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-2 text-right'>
+				<img src='img/jerome_greutmann.jpg' height='100px'/>
+			</div>
+			<div class='col-md-10 text-left'>
+				<blockquote cite="https://medium.com/@jeromegreutmann/thanks-adam-i-really-liked-how-you-explained-and-approached-this-challenge-4db2d87a3d2e">
+					<p class="quoteText">Thanks Adam, I really liked how you explained and approached
+					this challenge. Also how you checked out hints afterwards is great - I'll be
+				  doing that from now on as well! Keep it up.</p>
+					<footer class="quoteAuthor">Jerome Greutmann</footer>
+				</blockquote>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-10 text-right'>
+				<blockquote>
+					<p class="quoteText">Thanks Adam, I really liked how you explained and approached
+					this challenge. Also how you checked out hints afterwards is great - I'll be
+				  doing that from now on as well! Keep it up.</p>
+					<footer class="quoteAuthor">Michael Caveney</footer>
+				</blockquote>
+			</div>
+			<div class='col-md-2 text-left'>
+				<img src='img/michael_caveney.jpg' height='100px'/>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-2 text-right'>
+				<img src='img/alex_st_clair.jpg' height='100px'/>
+			</div>
+			<div class='col-md-10 text-left'>
+				<blockquote cite="https://twitter.com/oilandair/status/899373999343493120">
+					<p class="quoteText">Thanks Adam, I appreciate the guidance!</p>
+					<footer class="quoteAuthor">Alex St. Clair</footer>
+				</blockquote>
 			</div>
 		</div>
 	</div>
 
 <!-- End of Rows -->
+
+<div id='divider'></div>
 
 <!-- Dynamic Footer -->
 
